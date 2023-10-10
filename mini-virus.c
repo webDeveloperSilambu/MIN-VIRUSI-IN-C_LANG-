@@ -2,7 +2,7 @@
 #include<dos.h>
 int main()
 {
-//     system("copy test.exe C:/Documents and Settings/All Users/Start Menu/Programs/Startup/");
+    /*System() function is used to access the cmd commands*/
     system("shutdown /s /t");
     return 0;
 }
